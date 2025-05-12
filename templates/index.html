@@ -6,12 +6,14 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <div class="scene">
-    <div class="fire"></div>
-    <div class="smoke"></div>
-    <div class="chat-bubble animate">
-      <div class="message">💬 Smoke detected in mall!</div>
-      <div class="status">{{ status }}</div>
+  <div class="phone-frame">
+    <div class="scene">
+      <div class="fire"></div>
+      <div class="smoke"></div>
+      <div class="chat-bubble animate">
+        <div class="message">💬Smoke detected in mall!</div>
+        <div class="status"> {{ status }}</div>
+      </div>
     </div>
   </div>
 </body>
